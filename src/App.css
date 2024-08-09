@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+.input-container {
+  margin: 20px;
+}
+
+.todo-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.todo-list li.completed span {
+  text-decoration: line-through;
+}
+
+button {
+  margin-left: 10px;
+}
